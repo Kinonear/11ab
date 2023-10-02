@@ -2,23 +2,167 @@
 <html>
 <head>
     <title>Dersler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .course-link {
+            text-decoration: none;
+            color: #333;
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: fit-content;
+        }
+
+        .course-link:hover {
+            background-color: #ccc;
+        }
+
+        .hour-info,
+        .location-info,
+        .teacher-info { /* Stil düzenlemeleri */
+            font-size: 12px;
+            color: #777;
+            margin-left: 10px; /* Hs, Yer ve Öğretmen adlarına margin-left ekler */
+        }
+    </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Sınıf Öğretmeni : MURAT TÜRK</h1>
+    </div>
     <ul>
-        <li><a href="bed11.html" target="_blank">BEDEN EĞİTİMİ VE SPOR 11</a></li>
-        <li><a href="din11.html" target="_blank">DİN KÜLTÜRÜ VE AHLAK BİLGİSİ 11</a></li>
-        <li><a href="fel_11.html" target="_blank">FELSEFE</a></li>
-        <li><a href="gracan.html" target="_blank">GRAFİK VE CANLANDIRMA</a></li>
-        <li><a href="mobuy.html" target="_blank">MOBİL UYGULAMALAR</a></li>
-        <li><a href="mtsg9.html" target="_blank">SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ</a></li>
-        <li><a href="reh.html" target="_blank">REHBERLİK</a></li>
-        <li><a href="semat11.html" target="_blank">SEÇMELİ MATEMATİK</a></li>
-        <li><a href="setkin.html" target="_blank">SEÇ.SOSYAL ETKİNLİK</a></li>
-        <li><a href="sgiri.html" target="_blank">SEÇMELİ GİRİŞİMCİLİK</a></li>
-        <li><a href="tar11.html" target="_blank">TARİH11</a></li>
-        <li><a href="tded11.html" target="_blank">TÜRK DİLİ VE EDEBİYATI 11</a></li>
-        <li><a href="wt8.html" target="_blank">WEB TABANLI UYGULAMA GELİŞTİRME</a></li>
-        <li><a href="ing11.html" target="_blank">YAB.DİL İNGİLİZCE 11</a></li>
+        <li>
+            <a href="bed11.html" target="_blank" class="course-link">
+                BEDEN EĞİTİMİ VE SPOR 11
+                <span class="hour-info">(Hs: 2)</span>
+                <span class="teacher-info">Öğretmen: SEDA DÖNMEZ EROL (GÖR)</span>
+            </a>
+        </li>
+        <li>
+            <a href="din11.html" target="_blank" class="course-link">
+                DİN KÜLTÜRÜ VE AHLAK BİLGİSİ 11
+                <span class="hour-info">(Hs: 2)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: HATİCE İNCE(GÖR)</span>
+            </a>
+        </li>
+        <li>
+            <a href="fel_11.html" target="_blank" class="course-link">
+                FELSEFE
+                <span class="hour-info">(Hs: 2)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: FESİH YILDIRIMÇAKAR</span>
+            </a>
+        </li>
+        <li>
+            <a href="gracan.html" target="_blank" class="course-link">
+                GRAFİK VE CANLANDIRMA
+                <span class="hour-info">(Hs: 4)</span>
+                <span class="teacher-info">Öğretmen: EDA ÜNAL,PINAR ÖZEK</span>
+            </a>
+        </li>
+        <li>
+            <a href="mobuy.html" target="_blank" class="course-link">
+                MOBİL UYGULAMALAR
+                <span class="hour-info">(Hs: 5)</span>
+                <span class="teacher-info">Öğretmen: PINAR ÖZEK,RIDVAN TANIŞ</span>
+            </a>
+        </li>
+        <li>
+            <a href="mtsg9.html" target="_blank" class="course-link">
+                SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ
+                <span class="hour-info">(Hs: 1)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: FATMA NUR ÇELİK</span>
+            </a>
+        </li>
+        <li>
+            <a href="reh.html" target="_blank" class="course-link">
+                REHBERLİK
+                <span class="hour-info">(Hs: 1)</span>
+                <span class="teacher-info">Öğretmen: MURAT TÜRK</span>
+            </a>
+        </li>
+        <li>
+            <a href="semat11.html" target="_blank" class="course-link">
+                SEÇMELİ MATEMATİK
+                <span class="hour-info">(Hs: 6)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: SERAP GERMİ</span>
+            </a>
+        </li>
+        <li>
+            <a href="setkin.html" target="_blank" class="course-link">
+                SEÇ.SOSYAL ETKİNLİK
+                <span class="hour-info">(Hs: 2)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: SEDA DÖNMEZ EROL (GÖR)</span>
+            </a>
+        </li>
+        <li>
+            <a href="sgiri.html" target="_blank" class="course-link">
+                SEÇMELİ GİRİŞİMCİLİK
+                <span class="hour-info">(Hs: 1)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: FESİH YILDIRIMÇAKAR</span>
+            </a>
+        </li>
+        <li>
+            <a href="tar11.html" target="_blank" class="course-link">
+                TARİH11
+                <span class="hour-info">(Hs: 2)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: HATİCE YILMAZ</span>
+            </a>
+        </li>
+        <li>
+            <a href="tded11.html" target="_blank" class="course-link">
+                TÜRK DİLİ VE EDEBİYATI 11
+                <span class="hour-info">(Hs: 5)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: MERYEM GÜRSOY</span>
+            </a>
+        </li>
+        <li>
+            <a href="wt8.html" target="_blank" class="course-link">
+                WEB TABANLI UYGULAMA GELİŞTİRME
+                <span class="hour-info">(Hs: 8)</span>
+                <span class="teacher-info">Öğretmen: CEMAL ARIK,MURAT TÜRK</span>
+            </a>
+        </li>
+        <li>
+            <a href="ing11.html" target="_blank" class="course-link">
+                YAB.DİL İNGİLİZCE 11
+                <span class="hour-info">(Hs: 2)</span>
+                <span class="location-info">(Yer: 101)</span>
+                <span class="teacher-info">Öğretmen: HATİCE HÜLYA SARIÇAYIR</span>
+            </a>
+        </li>
     </ul>
 </body>
 </html>
