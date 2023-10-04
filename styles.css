@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #222831;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    opacity: 0.9;
+    background-color: #393E46;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    height: 10%;
+}
+
+/*.footer {
+    opacity: 0.9;
+    background-color: #EEEEEE;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    font-weight: 1000;
+    height: 4%;
+}*/
+
+.main_page {
+    background-color: #222831;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 2vh;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.315); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00ADB5; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 173, 181, 0.75); 
+  }
+
+.class_box {
+    min-width: 35vh;
+    min-height: 35vh;
+    background: #393E46;
+    margin: 3vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 3vh;
+    text-align:center;
+    color:white;
+    transition: all .5s;
+    cursor:pointer;
+    box-shadow: 0px 0px 2vh black;
+      
+    text-shadow: 2px 1px 10px rgba(0, 0, 0, 1), 
+    -2px 0px 10px rgba(0, 0, 0, 1), 
+    0px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.class_box:hover{
+    transform: scale(110%);
+}
+
+.class_box > p {
+    font-size: 2vh;
+    font-weight: 750;
+}
+
+.class_box > p > span {
+    font-size: 2vh;
+    font-weight: 500;
+    opacity:0.9;
+}
+
+  .bed11 {
+      background: url("https://rightforeducation.org/wp-content/uploads/2022/12/sports-1.jpg");
+      background-position-x: -12vh;
+      background-size:cover;
+      background-repeat:none;
+  }
+
+  .din11 {
+    background: url("https://i.pinimg.com/originals/21/78/ba/2178baf2b8483d4f2da04cda5f371d0f.jpg");
+    background-position-x: -5vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+
+  .fel11 {
+    background: url("https://vuzopedia.ru/storage/app/uploads/public/61e/722/4cb/61e7224cbe62b636110825.png");
+    background-position-x: -13vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+  .gracan {
+    background: url("https://miro.medium.com/v2/resize:fit:1000/1*txF9GSaoS8rVt3bS2tPbZA.png");
+    background-position-x: -7.5vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+  .mobuy {
+    background: url("https://www.roscom.co.uk/wp-content/uploads/App-Testing-Tiny-png-scaled.jpg");
+    background-position-x: -10vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+  .mtsg9 {
+    background: url("https://ec.europa.eu/research-and-innovation/sites/default/files/successstory/22-6_11_17_small.jpg");
+    background-position-x: -13.5vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+
+
+  .reh {
+    background: url("https://api.psychologos.ru/storage/image/b8afa36ff4b40f1145d2d2f72454d5a6.jpg");
+    background-size:cover;
+    background-repeat:none;
+  }
+
+  .semat11 {
+    background: url("https://i.pinimg.com/originals/f2/cf/e9/f2cfe98204c46bef924761251a924b7b.jpg");
+    background-size:cover;
+    background-repeat:none;
+  }
+
+  .setkin {
+    background: url("https://projectmentoring.files.wordpress.com/2015/08/177577770.jpg?w=1470&h=1132");
+    background-position-x: -.5vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+
+  .sgiri {
+    background: url("https://www.tripika.com/uploads/images/2016/September/18/The_one_skill_that_all_entrepreneurs_desperately_need1474254665.jpg");
+    background-position-x: -4vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+
+  .tar11 {
+    background: url("https://webpulse.imgsmail.ru/imgpreview?mb=webpulse&key=pulse_cabinet-image-7e48a10c-ac9c-4336-a84c-ba077dc3f56a");
+    background-position-x: -7vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+  .tded11 {
+    background: url("https://tde.iku.edu.tr/sites/turkdiledeb/files/styles/slideshow_1140x500_/public/2018-05/TURK-DILI-VE-EDEBIYATI-BOLUMU_1.jpg?itok=X9TvMytG");
+    background-size:cover;
+    background-repeat:none;
+  }
+
+  .wt8 {
+    background: url("https://cdnb.artstation.com/p/assets/images/images/058/555/417/large/yudiz-solutions-18907.jpg?1674455098");
+    background-position-x: -4vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+
+  .ing11 {
+    background: url("https://test-namespace-6xsx.s3pd01.sbercloud.ru/coursebook/angel25lika@gmail.com/62d656527b2a0.jpg");
+    background-position-x: -6vh;
+    background-size:cover;
+    background-repeat:none;
+  }
+
+  .main_page > a {
+    text-decoration: none;
+  }
