@@ -27,6 +27,12 @@ body {
     height: 10%;
 }
 
+.sub_header {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
 /*.footer {
     opacity: 0.9;
     background-color: #EEEEEE;
