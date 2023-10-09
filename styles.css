@@ -33,7 +33,7 @@ body {
   width: 100%;
 }
 
-/*.footer {
+.footer {
     opacity: 0.9;
     background-color: #EEEEEE;
     color: #000000;
@@ -46,7 +46,22 @@ body {
     font-size: 2vh;
     font-weight: 1000;
     height: 4%;
-}*/
+}
+
+.animate {
+  animation: slide-up 0.5s ease;
+}
+
+@keyframes slide-up {
+  from {
+      transform: translateY(20px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
 
 .main_page {
     background-color: #222831;
@@ -137,25 +152,27 @@ body {
     background-size:cover;
     background-repeat:none;
   }
+
   .gracan {
     background: url("https://miro.medium.com/v2/resize:fit:1000/1*txF9GSaoS8rVt3bS2tPbZA.png");
     background-position-x: -7.5vh;
     background-size:cover;
     background-repeat:none;
   }
+
   .mobuy {
     background: url("https://www.roscom.co.uk/wp-content/uploads/App-Testing-Tiny-png-scaled.jpg");
     background-position-x: -10vh;
     background-size:cover;
     background-repeat:none;
   }
+
   .mtsg9 {
     background: url("https://ec.europa.eu/research-and-innovation/sites/default/files/successstory/22-6_11_17_small.jpg");
     background-position-x: -13.5vh;
     background-size:cover;
     background-repeat:none;
   }
-
 
   .reh {
     background: url("https://api.psychologos.ru/storage/image/b8afa36ff4b40f1145d2d2f72454d5a6.jpg");
@@ -189,6 +206,7 @@ body {
     background-size:cover;
     background-repeat:none;
   }
+
   .tded11 {
     background: url("https://tde.iku.edu.tr/sites/turkdiledeb/files/styles/slideshow_1140x500_/public/2018-05/TURK-DILI-VE-EDEBIYATI-BOLUMU_1.jpg?itok=X9TvMytG");
     background-size:cover;
