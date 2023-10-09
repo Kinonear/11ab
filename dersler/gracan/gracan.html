@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BEDEN EĞİTİMİ VE SPOR 11</title>
+    <title>GRAFİK VE CANLANDIRMA</title>
     <link rel="stylesheet" href="../../styles.css">
 </head>
 
@@ -13,8 +14,44 @@
         <h1>GRAFİK VE CANLANDIRMA</h1>
     </div>
 
-    <div>
+    <div class="main_page">
+        <a href="ekleme.html" target="_blank" class="class_box " style="background: url(sepet.png); background-size: cover; background-repeat: none;">
+            <p>Ekleme İşlemleri<br><span>20.09.2023</span></p>
+        </a>
+        <a href="silme.html" target="_blank" class="class_box " style="background: url(sivilce.png) center no-repeat; background-size: 60vh;">
+            <p>Silme İşlemleri<br><span>27.09.2023</span></p>
+        </a>
+        <a href="katman.html" target="_blank" class="class_box " style="background: url(bist_sahil.png) center no-repeat; background-size: 45vh;">
+            <p>Katman İşlemleri<br><span>04.10.2023</span></p>
+        </a>
+    </div>
+
+    <div class="footer">
+        
+        <p>ÖDEV VAR! Son Tarih: 05.10.2023</p>
         
     </div>
 </body>
+
 </html>
+
+<script>
+    const footer = document.querySelector('.footer');
+    const footerText = footer.querySelector('p');
+    let isOriginalText = true;
+
+    footer.addEventListener('click', () => {
+        if (isOriginalText) {
+            footerText.textContent = "Kendinizi istediğiniz bir dizi/film afişine yerleştireceksiniz ve Grafik ve Tasarım dersinin Drive'ına yükleyeceksiniz.";
+        } else {
+            footerText.textContent = "ÖDEV VAR! Son Tarih: 05.10.2023";
+        }
+
+        // Animasyonu yeniden başlatmak için sınıfı kaldırıp ekliyoruz.
+        footerText.classList.remove('animate');
+        void footerText.offsetWidth; // CSS yeniden yüklemesi için gereken hile
+        footerText.classList.add('animate');
+
+        isOriginalText = !isOriginalText;
+    });
+</script>
