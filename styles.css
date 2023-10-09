@@ -153,18 +153,21 @@ body {
     background-size: cover;
     background-repeat:none;
   }
+
   .gracan {
     background: url("https://miro.medium.com/v2/resize:fit:1000/1*txF9GSaoS8rVt3bS2tPbZA.png");
     background-position-x: -7.5vh;
     background-size: cover;
     background-repeat:none;
   }
+
   .mobuy {
     background: url("https://www.roscom.co.uk/wp-content/uploads/App-Testing-Tiny-png-scaled.jpg");
     background-position-x: -10vh;
     background-size: cover;
     background-repeat:none;
   }
+
   .mtsg9 {
     background: url("https://ec.europa.eu/research-and-innovation/sites/default/files/successstory/22-6_11_17_small.jpg");
     background-position-x: -13.5vh;
